@@ -1,8 +1,8 @@
 import React from "react";
-import TopTotal from "./TopTotal";
-import LatestOrder from "./LatestOrder";
-import SaleStatistics from "./SalesStatistics";
-import ProductsStatistics from "./ProductsStatistics";
+import TopTotal from "./dashboard/src/components/Home/TopTotal";
+import LatestOrder from "./dashboard/src/components/Home/LatestOrder";
+import SaleStatistics from "./dashboard/src/components/Home/SalesStatistics";
+import ProductsStatistics from "./dashboard/src/components/Home/ProductsStatistics";
 import { useSelector } from "react-redux";
 
 const Demo = () => {
